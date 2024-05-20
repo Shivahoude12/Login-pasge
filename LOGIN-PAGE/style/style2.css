@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+font-family: " Montserrat", sans-serif;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1440px;
+    background-color: #2B463D;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    width: 50%;
+
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    width: 380px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.students {
+    z-index: 0;
+    width: 900px;
+    height: 340px;
+
+    position: absolute;
+    bottom: 0;
+
+}
+
+.right {
+    /* position: relative;
+    z-index: 1; */
+    width: 50%;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.right-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.right-wrapper form label, input,a{
+    display: block;
+   
+}
+.right-wrapper form input{
+    width: 370px;
+    height: 33px;
+margin-top: 7px;
+}
+.right-wrapper form label{
+  margin-top: 5px;
+    font-family: " Montserrat", sans-serif;
+}
+.right-wrapper form a{
+    margin-left: 150px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: black;
+    font-family: " Montserrat", sans-serif;
+}
+.right-wrapper form button{
+    width: 252.29px;
+    height: 38.15px;
+    border-radius: 1.28px;
+    text-transform: uppercase;
+    margin-top:40.2px ;
+    margin-left: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: " Montserrat", sans-serif;
+}
