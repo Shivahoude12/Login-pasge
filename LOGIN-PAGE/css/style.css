@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+..900&display=swap');
+
+
 
 body {    
 font-family: " Montserrat", sans-serif;
@@ -80,10 +80,10 @@ margin-top: 7px;
     font-family: " Montserrat", sans-serif;
 }
 .right-wrapper form a{
-    margin-left: 150px;
-    margin-top: 6px;
+    margin-left: 145px;
+    margin-top: 5px;
     text-decoration: none;
-    color: black;
+    color: dark_black;
     font-family: " Montserrat", sans-serif;
 }
 .right-wrapper form button{
